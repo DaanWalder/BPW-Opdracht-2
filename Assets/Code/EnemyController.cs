@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour {
 		if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out Shot)) {
 			TargetDistance = Shot.distance;
 			if (TargetDistance < AllowedRange) {
-				EnemeySpeed = 0.12f;
+				EnemeySpeed = 0.10f;
 				if (AttackTrigger == 0) {
 					transform.position = Vector3.MoveTowards (transform.position, ThePlayer.transform.position, EnemeySpeed);
 				}
