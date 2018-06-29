@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 2dd3788f8589b40bf82a92d76ffc5091, type: 3}
+        m_Texture: {fileID: 2800000, guid: b8deaf4d4ac68c946bf6a4c0e4259570, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Fresnel:
@@ -47,9 +47,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ReflDistort: 0.44
-    - _RefrDistort: 0.4
-    - _WaveScale: 0.063
+    - _ReflDistort: 0.63
+    - _RefrDistort: 1.13
+    - _WaveScale: 0.134
     m_Colors:
     - WaveSpeed: {r: 9, g: 4.5, b: -8, a: -3.5}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
@@ -60,7 +60,7 @@ Material:
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _RefrColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RefrColor: {r: 1, g: 0.22794116, b: 0.978702, a: 1}
     - _RefractionTex_ST: {r: 1, g: 1, b: 0, a: 0}
 --- !u!1002 &2100001
 EditorExtensionImpl:

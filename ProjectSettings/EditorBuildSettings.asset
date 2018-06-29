@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PostApocalypticWorld.unity
+    guid: 5f581fb347f18b14587591d9c04be038
+  - enabled: 1
+    path: Assets/DreamWorld.unity
+    guid: dcda0db7fa629d54681df8c3afa45ddd

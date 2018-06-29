@@ -20,18 +20,16 @@ public class TeleportPower : MonoBehaviour {
 			if (Physics.Raycast (cam.position, cam.forward, out hit, range)) {
 					ball.transform.position = hit.point;
 					ball.SetActive (true);
-				if (audioClip != null){
-					AudioSource.PlayClipAtPoint(audioClip, transform.position);
-					}
 				}
 			} 
-		if (Input.GetButtonUp ("Fire2")) {
+			if (Input.GetButtonUp ("Fire2")) {
 			if (Physics.Raycast (cam.position, cam.forward, out hit)) {
-				transform.position = ball.transform.position;
-				ball.SetActive (false);
+					transform.position = ball.transform.position;
+					ball.SetActive (false);
+				if (audioClip != null){
+					AudioSource.PlayClipAtPoint(audioClip, transform.position);
+				}
+				}
 			}
-		} else {
-			return null;
-		}
 	}
 }
